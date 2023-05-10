@@ -6,3 +6,10 @@
 
 4. Command for training the model is:
 python train.py --cfg <path to cfg file>
+  
+  5. To run the inference from the commandline:
+  python infer.py --cfg <path to cfg file>
+  
+  The inference from the commandline will also overlay the colors of the regions segmented on the original image.
+  
+  ![00004100](https://github.com/Shazinho10/SEGFORMER_and_SFNET_implementations/assets/96534007/0d4bcfb8-97ba-40c3-9f79-458995c3bbbe)
